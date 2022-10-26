@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pizza</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="code.js"></script>
+</head>
+<body>
+   <div class="intro">
+      <h1>Welcome to Yummy Pizza!</h1>
+      <h2>Order fresh from the oven!</h2>
+   </div>
+   <div class="order-form">
+         <form>
+            <label for="small">small ($14)</label>
+            <input type="number" id="small" name="small_pizza"><br>
+            <label for="medium">medium ($18)</label>
+            <input type="number" id="medium" name="medium_pizza"><br>
+            <label for="large">large ($22)</label>
+            <input type="number" id="large" name="large_pizza"><br><br>
+            <input 
+               type="button" 
+               id="calculate" 
+               value="Calculate" 
+               onclick="calculateOrder()"> 
+            <p>Get 10% off any order of 5 or more total pizzas!</p>    
+         </form>
+      <div class="total">
+         <label for="total">Total:</label>
+         <input type="number" id="total" name="total">
+      </div>
+   </div>
+   
+</body>
+<footer>
+   <h6><a href="https://bettameta.com">bettameta.com</a></h6>
+</footer>
+</html>

@@ -1,0 +1,75 @@
+html{
+   background-color: black;
+}
+
+body{
+   margin: 0;
+}
+h1{
+   margin-top: 0;
+   padding-top: 6%;
+}
+h1, h2{
+   color: rgb(0, 0, 0);
+   text-shadow: 1.5px 1.5px 1.5px #fff;
+}
+
+.intro{
+   background-image: url("img/yummy-pizza.jpeg"), linear-gradient(rgba(253, 247, 247, 0.2),rgba(247, 241, 241, 0.2));
+   background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 40vh;
+   padding-left: 3%;
+}
+.order-form{
+   padding: 10% 25%;
+   background-color: black;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   color: rgb(250, 245, 245);
+}
+
+label{
+   margin-bottom: 3%;
+}
+
+#calculate{
+   border-radius: 30px;
+   padding: 10px;
+   background: #AE4237;
+   color: antiquewhite; 
+   margin-bottom: 2%;
+}
+
+p{
+   margin-bottom: 12%; 
+   text-align: center;
+}
+
+.total{
+   display: flex;
+   flex-direction: column;
+   color: rgb(250, 245, 245);
+}
+input{
+   background-color: #9FB556;
+   padding: 8px 0;
+}
+
+#small, #medium, #large, #total{
+   padding-left: 10px;
+}
+
+h6{
+   text-align: center;
+}
+
+h6 a{
+   text-decoration: none;
+   color: #9FB556;
+}
