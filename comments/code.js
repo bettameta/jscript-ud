@@ -1,3 +1,3 @@
-function callFunction(){
+function outputString(){
    console.log ("comments lecture");
 }
